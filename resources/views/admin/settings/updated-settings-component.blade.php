@@ -1,7 +1,6 @@
 <form class="row" wire:submit.prevent='submit'>
-    @if (session('message'))
-        <div class="alert alert-success my-success-alert">{{ session('message') }}</div>
-    @endif
+  
+<x-success-session/>
 
     <div class="col-md-6">
         <label class="form-label">Name</label>

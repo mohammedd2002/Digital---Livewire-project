@@ -24,7 +24,7 @@ class ProjectsCreate extends Component
             'name' => 'required|string|max:255',
             'link' => 'nullable|url',
             'description' => 'nullable|string',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
             'category_id' => 'required|exists:categories,id',
         ];
     }

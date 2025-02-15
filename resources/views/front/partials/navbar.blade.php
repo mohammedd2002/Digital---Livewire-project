@@ -9,12 +9,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto py-0">
-            <a href="{{route('front.index')}}" class="nav-item nav-link @yield('home-active')">Home</a>
-            <a href="{{route('front.about')}}" class="nav-item nav-link @yield('about-active')">About</a>
-            <a href="{{route('front.services')}}" class="nav-item nav-link @yield('service-active')">Service</a>
-            <a href="{{route('front.project')}}" class="nav-item nav-link @yield('project-active')">Project</a>
+            <a wire:navigate href="{{route('front.index')}}" class="nav-item nav-link @yield('home-active')">Home</a>
+            <a wire:navigate href="{{route('front.about')}}" class="nav-item nav-link @yield('about-active')">About</a>
+            <a wire:navigate href="{{route('front.services')}}" class="nav-item nav-link @yield('service-active')">Service</a>
+            <a wire:navigate href="{{route('front.project')}}" class="nav-item nav-link @yield('project-active')">Project</a>
         
-            <a href="{{route('front.contact')}}" class="nav-item nav-link @yield('contact-active')">Contact</a>
+            <a wire:navigate href="{{route('front.contact')}}" class="nav-item nav-link @yield('contact-active')">Contact</a>
         </div>
         <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
     </div>
