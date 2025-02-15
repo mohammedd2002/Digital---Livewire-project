@@ -1,0 +1,1 @@
+<x-delete-component title="Subscriber"></x-delete-component>

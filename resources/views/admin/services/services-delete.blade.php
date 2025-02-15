@@ -1,0 +1,1 @@
+<x-delete-component title="Delete"></x-delete-component>

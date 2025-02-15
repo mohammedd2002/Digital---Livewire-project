@@ -1,0 +1,1 @@
+<x-delete-component title="Counter"></x-delete-component>

@@ -1,0 +1,1 @@
+<x-delete-component title="Message"></x-delete-component>

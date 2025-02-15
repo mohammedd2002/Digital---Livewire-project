@@ -1,0 +1,1 @@
+<x-delete-component title="Project"></x-delete-component>

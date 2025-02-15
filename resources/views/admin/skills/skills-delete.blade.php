@@ -1,0 +1,1 @@
+<x-delete-component title="Skill"></x-delete-component>
